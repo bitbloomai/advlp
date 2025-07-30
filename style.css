@@ -1,0 +1,384 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100vw;
+    background-color: #0a0a0a;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+.main {
+    background-color: #0a0a0a;
+    width: 100%;
+    height: 80vh;
+    /* background-image: url(banner-ultima-oferta-desktop-1536x640.jpg.webp); */
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10vh;
+}
+
+section {}
+
+h2 {
+    font-size: 45px;
+    line-height: 1em;
+}
+
+h3 {
+    font-size: 37px;
+}
+
+h4 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 20px;
+}
+
+.btn-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    background: linear-gradient(135deg, #D4AF37, #C4A35A);
+    font-size: 25px;
+    font-weight: bolder;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.btn-content>img {
+    width: 200px;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    padding-bottom: 5vh;
+}
+
+.video>h2 {
+    max-width: 900px;
+    text-align: center;
+}
+
+.graph {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(135deg, #040720, #0D1B2A);
+}
+
+.graph-content {
+    margin-left: 5vw;
+    max-width: 800px;
+}
+
+.graph h4 {
+    margin: 40px 0;
+}
+
+.graph-element {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.progress-bar .bar {
+    background-color: #1e1e2f;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 48px;
+    position: relative;
+}
+
+.progress-bar .fill {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(90deg, #040720, #3b82f6);
+    transition: width 0.6s ease;
+    white-space: nowrap;
+}
+
+.feedbacks {
+    background-color: rgb(230, 230, 230);
+    color: #040720;
+    padding: 10vh 0 0 0;
+    margin-bottom: -5vh;
+}
+
+.feedbacks-content {
+    max-width: 1000px;
+    display: flex;
+    margin: auto;
+}
+
+.feedbacks-txt {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin: auto;
+}
+
+.phone-img {
+    width: 300px;
+}
+
+.funcional {
+    margin: auto;
+    max-width: 1000px;
+    color: #040720;
+}
+
+.fun-elements {
+    margin-top: 50px;
+    display: flex;
+    gap: 40px;
+}
+
+.fun-element {
+    width: 250px;
+    background-color: white;
+    color: #040720;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.247);
+}
+
+.fun-element>img{
+    width: 50%;
+    margin-bottom: 12px;
+}
+
+.appresentation {
+    background: linear-gradient(135deg, #040720, #0D1B2A);
+    padding: 17vh 0;
+    text-align: center;
+}
+
+.app-txt {
+    max-width: 800px;
+    margin: 30px auto auto auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.offer {
+    background-color: #0a0a0a;
+}
+
+.offer-content {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.offer-txt {
+    max-width: 550px;
+}
+
+.offer-txt>p {
+    margin-top: 20px;
+}
+
+.offer-element {
+    height: 750px;
+    width: 450px;
+    background: linear-gradient(135deg, #040720, #0D1B2A);
+    margin: -30px;
+    border-radius: 17px;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.offer-element>img {
+    width: 60%;
+}
+
+.offer-element>h4 {
+    margin-top: 20px;
+}
+
+.offer-element>.desc {
+    margin-bottom: 20px;
+}
+/* 
+.offer-element>.desc>p {
+    font-size: 15px;
+} */
+
+
+.kart {
+    text-align: center;
+    padding: 16vh 0 10vh 0;
+    color: #040720;
+    background-color: white;
+}
+
+.kart-itns {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    height: 700px;
+}
+
+.kart-itn {
+    max-width: 300px;
+    height: 100%;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.089);
+    border-radius: 20px;
+    padding: 40px 40px 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.golden-kart {
+    box-shadow: 1px 1px 50px 1px #c4a35a7a;
+}
+
+.kart-img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.kart-itn>h4 {
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.desc>p{
+    font-size: 15px;
+}
+
+.price {
+    margin: 20px 0 30px 0;
+}
+
+.from {
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+.card {
+    font-weight: bold;
+    margin: 3px 0;
+    font-size: 35px;
+}
+
+.to {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.rec {
+    font-size: 15px;
+}
+
+.kart-itn>button {
+    width: 100%;
+    margin: 5px 0 5px 0;
+    background-color: #C4A35A;
+}
+
+.kart-itn>.cta-btn-img {
+    width: 80%;
+}
+
+
+.faq {
+    color: #040720;
+    background-color: white;
+    padding: 10vh 0;
+}
+
+.faq-container {
+    max-width: 700px;
+    margin: auto;
+}
+
+.faq-title {
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.faq-item {
+    background-color: rgb(238, 238, 238);
+    border-radius: 8px;
+    margin-bottom: 5px;
+    padding: 20px;
+}
+
+.faq-question {
+    cursor: pointer;
+    position: relative;
+    font-weight: bold;
+    padding-right: 25px;
+    font-size: 20px;
+}
+
+.faq-question::after {
+    content: '+';
+    position: absolute;
+    right: 0;
+    transition: transform 0.3s ease;
+}
+
+.faq-question.active::after {
+    content: '-';
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+    font-size: 18px;
+    color: #040720;
+    opacity: 0;
+    transition: max-height 0.4s ease, opacity 0.3s ease;
+}
+
+.faq-answer.open {
+    max-height: 500px;
+    margin: 16px 0;
+    opacity: 1;
+}
