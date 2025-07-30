@@ -436,6 +436,61 @@ button:hover {
 }
 
 
+.contact {
+    background-color: #0a0a0a;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10vh 0;
+    color: rgb(49, 49, 49);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.contact img {
+    width: 130px;
+}
+
+.contact nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-links>p{
+    font-size: 15px;
+    color: white;
+    margin: 5px 0;
+}
+
+.socials {
+    margin: 10px 0;
+}
+
+.socials img {
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgb(20, 20, 20);
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+
 
 @media(max-width: 750px) {
 
@@ -626,6 +681,22 @@ button:hover {
 
     .faq {
         padding: 8vh 20px;
+    }
+
+    .contact {
+        padding: 5vh 0;
+        flex-direction: column;
+        gap: 40px;
+
+        text-align: center;
+    }
+
+    .contact>nav {
+        align-items: center;
+    }
+
+    .socials {
+        text-align: center;
     }
 }
 
